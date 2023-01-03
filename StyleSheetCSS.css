@@ -1,3 +1,37 @@
+body {
+    background-image: url(/Home/Home_BG.png);
+}
+
+h1 {
+    font-family: "Rouge Script", cursive;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+}
+
+/* Cormorant Garamond Class */
+.Cormorant {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 /* Designer Item Animation */
 .slide-in-bck-center {
     -webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
