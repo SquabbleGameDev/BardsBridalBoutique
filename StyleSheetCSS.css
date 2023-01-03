@@ -1,57 +1,48 @@
 /* Rouge Type */
 .rougeType {
-  font-family: "Rouge Script", cursive;
+    font-family: "Rouge Script", cursive;
 }
 
 body {
-  background-image: url(/Home/Home_BG.png);
+    background-image: url(/Home/Home_BG.png);
 }
 
 h1 {
-  font-family: "Rouge Script", cursive;
-  font-size: 5rem;
+    font-family: "Rouge Script", cursive;
+    font-size: 5rem;
 }
 
-h2 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-}
-h3 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-size: 5rem;
-}
+h2,
+h3,
 h4 {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
 }
 
 h5 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.75rem;
-  font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.75rem;
+    font-weight: 600;
 }
 
 p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 a {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
 }
 
 /* Cormorant Garamond Class */
 .cormorantType {
-  font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /* Designer Item Animation */
 .slide-in-bck-center {
-  -webkit-animation: slide-in-bck-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: slide-in-bck-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    -webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -67,202 +58,210 @@ a {
  * ----------------------------------------
  */
 @-webkit-keyframes slide-in-bck-center {
-  0% {
-    -webkit-transform: translateZ(600px);
-    transform: translateZ(600px);
-    opacity: 0;
-  }
+    0% {
+        -webkit-transform: translateZ(600px);
+        transform: translateZ(600px);
+        opacity: 0;
+    }
 
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
 }
 
 @keyframes slide-in-bck-center {
-  0% {
-    -webkit-transform: translateZ(600px);
-    transform: translateZ(600px);
-    opacity: 0;
-  }
+    0% {
+        -webkit-transform: translateZ(600px);
+        transform: translateZ(600px);
+        opacity: 0;
+    }
 
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
 }
+
+
 
 /* Link Decoration */
 .colorBlack {
-  color: black;
+    color: black;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
+
 }
 
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Designer HoverOverlay */
 .containerDesigner {
-  position: relative;
-  width: 50%;
+    position: relative;
+    width: 50%;
 }
 
 .imageDesigner {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlayX {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #e6dacd;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E6DACD;
 }
 
 .overlayX:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* HoverLogo */
 .designerLogo {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
+
+
+
+
 .shadow-drop-2-center:hover {
-  -webkit-animation: shadow-drop-2-center 0.4s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes shadow-drop-2-center {
-  0% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
 
-  100% {
-    -webkit-transform: translateZ(50px);
-    transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-  }
+    100% {
+        -webkit-transform: translateZ(50px);
+        transform: translateZ(50px);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
 }
 
 @keyframes shadow-drop-2-center {
-  0% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
 
-  100% {
-    -webkit-transform: translateZ(50px);
-    transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-  }
+    100% {
+        -webkit-transform: translateZ(50px);
+        transform: translateZ(50px);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
 }
 
 /* Reveal */
 .reveal {
-  position: relative;
-  transform: translateY(20px);
-  opacity: 0;
-  transition: all 2s ease;
+    position: relative;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 2s ease;
 }
 
 .reveal.active {
-  transform: translateY(0px);
-  opacity: 1;
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .topLogoHeight {
-  height: 7.5vw;
+    height: 7.5vw;
 }
 
 .topNavMargin {
-  padding-left: 5%;
-  padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .topNavMarginDesigner {
-  padding-left: 25vw;
-  padding-right: 5%;
+    padding-left: 25vw;
+    padding-right: 5%;
 }
 
 .textAlignCenter {
-  text-align: center;
+    text-align: center;
 }
 
 .clipimg {
-  object-fit: contain;
+    object-fit: contain;
 }
 
 .socialMediaIcon {
-  width: 75px;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+    width: 75px;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .homeOverlapNote {
-  position: absolute;
-  left: 10vw;
-  top: 100vw;
-  z-index: 1;
-  width: 30vw;
-  height: auto;
+    position: absolute;
+    left: 10vw;
+    top: 100vw;
+    z-index: 1;
+    width: 30vw;
+    height: auto;
 }
 
 .appointmentInquiry {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 .roundCorner {
-  border-radius: 25px;
+    border-radius: 25px;
 }
 
 .appointmentFormBG {
-  width: 50vw;
+    width: 50vw;
 }
 
 .cardMargin {
-  margin: 2%;
+    margin: 2%;
 }
+
+
 
 /**
  * ----------------------------------------
@@ -270,67 +269,66 @@ a:hover {
  * ----------------------------------------
  */
 @-webkit-keyframes flip-vertical-left {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
 
-  100% {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-  }
+    100% {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
 }
 
 @keyframes flip-vertical-left {
-  0% {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
 
-  100% {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-  }
+    100% {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
 }
+
 
 /* CSS (Mobile Version)*/
 @media screen and (max-width: 420px) {
-  .topLogoHeight {
-    height: 20vw;
-  }
+    .topLogoHeight {
+        height: 20vw;
+    }
 
-  .topNavMargin {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
+    .topNavMargin {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 
-  .homeOverlapNote {
-    position: absolute;
-    left: 10vw;
-    top: 120vw;
-    z-index: 1;
-    width: 40vw;
-    height: auto;
-  }
+    .homeOverlapNote {
+        position: absolute;
+        left: 10vw;
+        top: 120vw;
+        z-index: 1;
+        width: 40vw;
+        height: auto;
+    }
 
-  .roundCorner {
-    border-radius: 10px;
-  }
+    .roundCorner {
+        border-radius: 10px;
+    }
 
-  .appointmentFormBG {
-    width: 80vw;
-  }
-  h3 {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 600;
-    font-size: 5rem;
-  }
+    .appointmentFormBG {
+        width: 80vw;
+    }
+
+
 }
 
-/* CSS ( Version)*/
+/* CSS (Mobile Version)*/
 @media screen and (max-width: 992px) {
-  .topNavMarginDesigner {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
+
+    .topNavMarginDesigner {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 }
