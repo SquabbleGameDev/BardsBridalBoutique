@@ -7,7 +7,9 @@ h1 {
     font-size: 5rem;
 }
 
-h2 {
+h2,
+h3,
+h4 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
 }
@@ -28,7 +30,7 @@ a {
 }
 
 /* Cormorant Garamond Class */
-.Cormorant {
+.cormorantType {
     font-family: 'Cormorant Garamond', serif;
 }
 
