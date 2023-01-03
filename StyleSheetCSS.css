@@ -1,3 +1,66 @@
+/* Link Decoration */
+.colorBlack {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Designer HoverOverlay */
+.containerDesigner {
+    position: relative;
+    width: 50%;
+}
+
+.imageDesigner {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlayX {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E6DACD;
+}
+
+.overlayX:hover {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+
 .shadow-drop-2-center:hover {
     -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -34,10 +97,6 @@
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
 }
-
-
-/* Rogue Typeface */
-@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 
 /* Reveal */
 .reveal {
