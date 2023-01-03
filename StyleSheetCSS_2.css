@@ -189,8 +189,10 @@ a:hover {
 /* Flipbook BG */
 body {
     padding: 20px;
-    background-image: url(/accessories/Ossai/149906_163914376964432_1740662_n.jpg);
+    background-image: url(/Flipbook/bbg_flipbok-cropped.png);
     user-select: none;
+    width: 100vw;
+    height: 100vh;
 }
 
 [type=radio] {

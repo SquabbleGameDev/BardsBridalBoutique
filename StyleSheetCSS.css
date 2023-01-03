@@ -1,3 +1,8 @@
+/* Rouge Type */
+.rougeType {
+    font-family: "Rouge Script", cursive;
+}
+
 body {
     background-image: url(/Home/Home_BG.png);
 }

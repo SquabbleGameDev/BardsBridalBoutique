@@ -4,7 +4,10 @@ function loadPage(page) {
   var img = $("<img />");
   img.load(function () {
     var container = $(".sample-docs .p" + page);
-    img.css({ width: container.width(), height: container.height() });
+    img.css({
+      width: container.width(),
+      height: container.height()
+    });
     img.appendTo($(".sample-docs .p" + page));
     container.find(".loader").remove();
   });
@@ -71,7 +74,9 @@ function getViewNumber(book, page) {
 
 function moveBar(yes) {
   if (Modernizr && Modernizr.csstransforms) {
-    $("#slider .ui-slider-handle").css({ zIndex: yes ? -1 : 10000 });
+    $("#slider .ui-slider-handle").css({
+      zIndex: yes ? -1 : 10000
+    });
   }
 }
 
@@ -81,7 +86,7 @@ function setPreview(view) {
     previewSrc = "pics/preview.png",
     preview = $(_thumbPreview.children(":first")),
     numPages =
-      view == 1 || view == $("#slider").slider("option", "max") ? 1 : 2,
+    view == 1 || view == $("#slider").slider("option", "max") ? 1 : 2,
     width = numPages == 1 ? previewWidth / 2 : previewWidth;
 
   _thumbPreview
@@ -102,7 +107,9 @@ function setPreview(view) {
     preview.css("background-image") === "" ||
     preview.css("background-image") == "none"
   ) {
-    preview.css({ backgroundImage: "url(" + previewSrc + ")" });
+    preview.css({
+      backgroundImage: "url(" + previewSrc + ")"
+    });
 
     setTimeout(function () {
       _thumbPreview.removeClass("no-transition");
