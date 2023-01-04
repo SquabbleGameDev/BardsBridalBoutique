@@ -294,6 +294,8 @@ a:hover {
 
 /* CSS (Mobile Version)*/
 @media screen and (max-width: 420px) {
+
+
   .staffComment {
     font-size: 1rem;
   }
