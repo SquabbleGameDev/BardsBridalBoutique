@@ -1,3 +1,16 @@
+.navPadding {}
+
+.hideLogo {}
+
+.justifyContentCenter {
+  justify-content: start;
+}
+
+/* TextAlignLeft */
+.textAlignLeft {
+  text-align: left;
+}
+
 /* Staff Comment */
 .staffComment {
   font-size: 1.2rem;
@@ -294,7 +307,15 @@ a:hover {
 
 /* CSS (Mobile Version)*/
 @media screen and (max-width: 420px) {
+  .navPadding {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
+
+  .hideLogo {
+    display: none;
+  }
 
   .staffComment {
     font-size: 1rem;
